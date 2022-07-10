@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*......................Header................*/
+header #logoP {
+    width: 40%;
+    text-align: center;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+header nav li {
+    list-style-type: none;
+}
+
+.top-header {
+    width: 100%;
+    height: 80px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.top-header .container {
+    display: flex;
+    align-items: baseline;
+}
+
+header #container-fluid {
+    width: 100%;
+    height: 600px;
+    background: url(../images/pexels-cottonbro-3957992.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+header #headerBox {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 3.8em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #FFF;
+    font-weight: 300;
+}
+
+header button {
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 80px;
+    border: 0px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background: #a07d5d;
+    color: #FFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+/*............................MAIN.....................*/
+
+main #box1 {
+    display: flex;
+    padding: 80px 0px 80px 0px;
+}
+
+main #box1 #section1 {
+    width: 70%;
+    margin: 0px 30px;
+}
+
+main #box1 #section1 h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main #box1 #section1 p {
+    text-align: justify;
+}
+
+main #box1 #section2 {
+    width: 30%;
+}
+
+main #box1 #section2 img {
+    width: 100%;
+}
+
+main .container-fluid {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+main .container-fluid #box2 {
+    width: 100%;
+    background: #bd9a84;
+}
+
+main #box2 {
+    width: 80%;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main #box2 .icon {
+    width: 26.666%;
+}
+
+main #box2 svg {
+    color: #FFF;
+    width: 40%;
+}
+
+main #box2 h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #47362b;
+}
